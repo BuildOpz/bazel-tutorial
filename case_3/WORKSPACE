@@ -1,0 +1,9 @@
+############ Case 3 - Example #########################
+load("@bazel_tools//tools/build_defs/repo:http.bzl", "http_archive")
+http_archive(
+    name = "calculations",
+    sha256 = "67850bd1dd310d35749c129a0c6e56a95edc5277b790f9e452890893d024da38",
+    strip_prefix = "calculations",
+    build_file = "//:external_dependency_buildfiles/calc.bazel",
+    urls = ["https://jfrog.bangalore.qa.visteon.com/artifactory/test_bazel/calculations.tar.gz"],
+)

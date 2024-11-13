@@ -1,0 +1,9 @@
+############ Case 1 - Example #########################
+load("@bazel_tools//tools/build_defs/repo:git.bzl", "git_repository")
+
+git_repository(
+    name = "calculations_source",
+    build_file = "//:external_dependency_buildfiles/calc.bazel",
+    commit = "dd961925544939ab8dacc1b44ef38246370f24d0",
+    remote = "http://10.185.4.138/devnext/dhanalakshmi-test/case1.git",
+)

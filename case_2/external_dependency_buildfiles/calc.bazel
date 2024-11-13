@@ -1,0 +1,10 @@
+package(default_visibility = ["//visibility:public"])
+cc_library(
+    name="calculations",
+    srcs=["src/add.c",
+    "src/division.c",
+    "src/multiplication.c",
+    "src/subtract.c",],
+    hdrs=["include/calculations.h"],
+    includes=["include"],
+)
