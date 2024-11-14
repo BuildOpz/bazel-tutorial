@@ -4,6 +4,6 @@ load("@bazel_tools//tools/build_defs/repo:git.bzl", "git_repository")
 git_repository(
     name = "calculations_source",
     build_file = "//:external_dependency_buildfiles/calc.bazel",
-    commit = "dd961925544939ab8dacc1b44ef38246370f24d0",
-    remote = "http://10.185.4.138/devnext/dhanalakshmi-test/case1.git",
+    commit = "6b04a1238dd0d261481b01de03a2d865efae9f7b",
+    remote = "https://github.com/BuildOpz/external-case1.git",
 )
