@@ -56,7 +56,8 @@ Here are details for each key value pair
     ![WORKSPACE](Picture3.png "WORKSPACE")
 
 Here we have introduced a key value pain `build_file`. Which will be injected in external repository workspace after the download. Here is the content for calc.bazel
-    ![calc.bazel](Picture4.png "calc.bazel")
+    
+![calc.bazel](Picture4.png "calc.bazel")
 
 4. Now we will introduce a `BUILD` file in our workspace in order to consume the external repository in our code.
    ![BUILD](Picture5.png "BUILD")
